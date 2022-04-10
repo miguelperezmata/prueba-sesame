@@ -1,0 +1,16 @@
+App\Entity\User:
+  attributes:
+    id:
+      groups: ['user']
+    createdAt:
+      groups: ['user']
+    updatedAt:
+      groups: ['user']
+    deletedAt:
+      groups: ['user']
+    name:
+      groups: ['user']
+    email:
+      groups: ['user']
+    workEntries:
+      groups: ['dontShow']

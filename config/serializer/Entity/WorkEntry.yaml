@@ -1,0 +1,16 @@
+App\Entity\WorkEntry:
+  attributes:
+    id:
+      groups: ['work']
+    createdAt:
+      groups: ['work']
+    updatedAt:
+      groups: ['work']
+    deletedAt:
+      groups: ['work']
+    userId:
+      groups: ['work']
+    startDate:
+      groups: ['work']
+    endDate:
+      groups: ['work']
